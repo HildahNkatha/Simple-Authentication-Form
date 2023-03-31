@@ -1,0 +1,57 @@
+body{
+    background-color: purple;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    color: white;
+
+}
+.text-field{
+    padding: 12px 36px;
+    margin: 16px;
+    border:  2px solid white;
+    border-radius: 12px;
+    font-size: 10pt;
+    color: purple;
+}
+.btn-style {
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 19px;
+    background-color: white;
+    color: purple;
+}
+.btn-style:hover{
+    background-color: purple;
+    color: white;
+}
+
+.an-btn{
+    margin-top: 10px;
+    border: 0;
+    background-color: purple;
+    color: white;
+    font-size: 12px;
+
+}
+
+#register-div{
+    display: none;
+}
+#result-box{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 16pt;
+    color: white;
+}
